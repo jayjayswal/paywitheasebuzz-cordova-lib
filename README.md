@@ -12,9 +12,9 @@ paywitheasebuzz-cordova-lib
 3. Run the project
 
 #### Steps to integrate
-1. Meta tag Content-Security-Policy add "connect-src *;"
-2. Add jquery-1.11.1.min.js,sha512.js,payEasebuzz.js from Library folder and import it before index.js
-3. call easebuzz.easebuzzCheckout(params) function to start a payment
+1. Meta tag Content-Security-Policy add "connect-src *;".
+2. Add jquery-1.11.1.min.js,sha512.js,payEasebuzz.js from Library folder and import it before index.js.
+3. call easebuzz.easebuzzCheckout(params) function to start a payment.
 param Example:
 ```javascript
 params = {
